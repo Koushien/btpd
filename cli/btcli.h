@@ -20,6 +20,8 @@
 #include "iobuf.h"
 #include "queue.h"
 
+#define LEN(x) (sizeof((x)) / sizeof(*(x)))
+
 extern const char *btpd_dir;
 extern struct ipc *ipc;
 
